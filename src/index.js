@@ -1,8 +1,10 @@
 const express = require('express');
-const conn = require('./connection/config.js');
+// const conn = require('./connection/config.js');
 const app = express();
 
-console.log(conn);
+const conn = require('./connection/connection.js');
+
+console.log(conn());
 
 app.set('port', process.env.PORT || 5000);
 
