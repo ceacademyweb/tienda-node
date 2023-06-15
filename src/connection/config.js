@@ -6,10 +6,16 @@ module.exports = {
     database: 'crud_api',
   },
   mongodb: {
-    host: process.env.MONGOHOST || 'localhost',
-    user: process.env.MONGOUSER || '',
-    password: process.env.MONGOPASSWORD || '',
+    host: env.MONGOHOST || 'localhost',
+    user: env.MONGOUSER || '',
+    password: env.MONGOPASSWORD || '',
     database: 'ceacademy_db',
-    port: process.env.MONGOPORT || 27017,
+    port: env.MONGOPORT || 27017,
   },
 };
+// {
+//   "MONGOHOST": "containers-us-west-138.railway.app",
+//   "MONGOUSER": "mongo",
+//   "MONGOPASSWORD": "A3xJRdUYsO7E1CkF64MC"
+//   "MONGOPORT" : "7615"
+// }

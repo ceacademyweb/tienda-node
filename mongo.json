@@ -1,0 +1,6 @@
+{
+  "MONGOHOST": "containers-us-west-138.railway.app",
+  "MONGOUSER": "mongo",
+  "MONGOPASSWORD": "A3xJRdUYsO7E1CkF64MC",
+  "MONGOPORT" : "7615"
+}
