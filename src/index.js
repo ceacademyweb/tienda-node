@@ -9,10 +9,10 @@ app.set('port', process.env.PORT || 5000);
 //   res.send('funcionando');
 // });
 
-// app.listen(app.get('port'), () => {
-//   console.log(`app run on port ${app.get('port')}`);
-// });
+app.listen(app.get('port'), () => {
+  console.log(`app run on port ${app.get('port')}`);
+});
 
 // const bcrypt = require('bcrypt');
 
-console.log(app.get('port'));
+// console.log(app.get('port'));
