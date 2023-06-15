@@ -1,5 +1,5 @@
-// const express = require('express');
-// const app = express();
+const express = require('express');
+const app = express();
 
 // app.set('port', process.env.PORT || 5000);
 
@@ -13,6 +13,6 @@
 //   console.log(`app run on port ${app.get('port')}`);
 // });
 
-const bcrypt = require('bcrypt');
+// const bcrypt = require('bcrypt');
 
-console.log(bcrypt);
+console.log(app);
