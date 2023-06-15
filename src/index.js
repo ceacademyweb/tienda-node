@@ -13,4 +13,6 @@
 //   console.log(`app run on port ${app.get('port')}`);
 // });
 
-console.log(`app start`);
+const bcrypt = require('bcrypt');
+
+console.log(bcrypt);
